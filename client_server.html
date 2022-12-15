@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS homework</title>
+    <style>
+        .heading::after{
+            content: ".";
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+        div{
+           height: 350px;
+           background-color: pink;
+           border: 1px solid black;
+           width: 420px;
+        }
+        div p{
+            height: 200px;
+            margin: 30px;
+            padding: 15px;
+            text-align: center;
+        }
+        p.tier1{
+            border: 1px solid black;
+            float: left;
+            background-color: aqua;
+        }
+        p.tier2{
+            border: 1px solid black;
+            float: left;
+            background-color: aqua;
+        }
+        p.tier3{
+            border: 1px solid black;
+            float: left;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Client Server Architecture</h4>
+    <div id="abc">
+        <p class="tier1">Tier 1</p>
+        <p class="tier2">Tier 2</p>
+        <p class="tier3">Tier 3</p>
+    </div>
+</body>
+</html>
